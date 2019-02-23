@@ -1,5 +1,5 @@
 {
-  "name": "egg-heading-id",
+  "name": "heading-id",
   "version": "1.0.0",
   "description": "Calculate Heading element id value",
   "keywords": [
@@ -27,6 +27,7 @@
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
+  "main": "index.js",
   "files": [
     "index.js"
   ],
