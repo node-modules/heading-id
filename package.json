@@ -1,0 +1,46 @@
+{
+  "name": "egg-heading-id",
+  "version": "1.0.0",
+  "description": "Calculate Heading element id value",
+  "keywords": [
+    "Heading"
+  ],
+  "dependencies": {
+    "blueimp-md5": "^2.10.0"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "eslint": "^5.14.1",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "index.js"
+  ],
+  "ci": {
+    "version": "10, 11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-heading-id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-heading-id#readme",
+  "author": "fengmk2",
+  "license": "MIT"
+}
